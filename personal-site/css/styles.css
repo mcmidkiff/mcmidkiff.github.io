@@ -1,0 +1,52 @@
+header {
+  padding: 0px, 25px;
+  background: red;
+  width: 100%;
+}
+
+header h1 {
+  color: #ffd966;
+  margin: 0px;
+  text-align: center;
+}
+header img {
+  float: left;
+  width: 100%;
+}
+figure {
+  width: 150px;
+  margin: 0px, 20px, 10px;
+}
+.body-margin {
+  margin: 0px;
+}
+#container {
+  width: 15%;
+  float: left;
+  clear: both;
+}
+#content {
+  width: 45%;
+  float: left;
+  overflow: hidden;
+  height: 100px;
+}
+article h2 {
+  width: 45%;
+  float: left;
+  margin-bottom: 0px;
+  line-height: 30px;
+}
+.footer {
+  clear: both;
+}
+h2 {
+  font-family: 'Pacifico', serif;
+  font-size: 24px;
+  color: red;
+}
+p {
+  font-weight: lighter;
+  font-size: 14px;
+  color: red;
+}
