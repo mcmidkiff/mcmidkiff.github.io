@@ -1,0 +1,87 @@
+.article-header {
+  font-family: 'Arial', serif;
+  font-size: 36px;
+  color: grey;
+  font-weight: bold;
+}
+#main-image {
+  align-content: center;
+}
+article p {
+  float: left;
+}
+#sidebar {
+  float: left;
+  color: blue;
+  background-color: #D8D8D8;
+  font-size: 24px;
+  text-align: justify;
+  width: 200px;
+  align-items: center;
+  padding: 20px;
+  margin: 0px;
+}
+#article-thumbs {
+  float: left;
+  clear: both;
+  margin-left: 80px;
+  width: 50%;
+  align-content: center;
+}
+#article-thumbs img {
+  padding: 0px, 25px;
+  margin: 20px;
+  align-content: center;
+}
+.two-column {
+  width: 72%;
+  column-count: 2;
+}
+#content {
+  width: 60%;
+  float: left;
+  align-content: center;
+  margin-left: 45px;
+  text-align: left;
+  text-indent: 0.25in;
+}
+#bottom-image {
+  align-items: center;
+  clear: both;
+  width: 50%;
+  margin-left: 60px;
+}
+.paragraph-two {
+  width: 50%;
+  text-align: left;
+  text-indent: 0.25in;
+  margin-top: 20px;
+  margin-left: 45px;
+}
+.last-paragraph {
+  width: 50%;
+  text-align: left;
+  text-indent: 0.25in;
+  margin-top: 20px;
+  margin-left: 45px;
+}
+footer {
+  font-weight: bold;
+}
+footer h3 {
+  font-size: 20px;
+}
+footer ul li a{
+  color: blue;
+  text-decoration: none;
+}
+footer ul li a:hover,
+footer ul li a:focus,
+footer ul li a:active {
+  color: blue;
+  text-decoration: underline;
+}
+footer ul li a:visited {
+  color: purple;
+  text-decoration: underline;
+}
