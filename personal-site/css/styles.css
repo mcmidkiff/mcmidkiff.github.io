@@ -1,7 +1,17 @@
+html {
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+}
+body {
+  background-image: url(../img/stripes-light.png);
+}
 header {
   padding: 0px, 25px;
   background: red;
   width: 100%;
+  margin-bottom: 0px;
+  position: relative;
 }
 
 header h1 {
@@ -24,29 +34,89 @@ figure {
   width: 15%;
   float: left;
   clear: both;
+  position: relative;
 }
 #content {
   width: 45%;
   float: left;
   overflow: hidden;
   height: 100px;
+  position: relative;
 }
 article h2 {
   width: 45%;
   float: left;
   margin-bottom: 0px;
   line-height: 30px;
+  position: relative;
+}
+#main-photo {
+
 }
 .footer {
   clear: both;
+  border-top: red 5px solid;
+  background: #ffd966;
+  padding: 10px;
+}
+.footer ul{
+  list-style: none;
+}
+.footer ul li a {
+  display: inline-block;
+  font-family: 'Pacifico', serif;
+  font-size: 18px;
+  color: red;
 }
 h2 {
   font-family: 'Pacifico', serif;
   font-size: 24px;
   color: red;
+  font-weight: lighter;
 }
 p {
-  font-weight: lighter;
   font-size: 14px;
+}
+#main-nav ul {
+  list-style-type: none;
+  padding-left: 0px;
+  margin: 0px;
+  width: 100%;
+}
+#main-nav ul li a {
+  text-align: center;
+  text-decoration: none;
+  background-color: #ffd966;
+  padding: 10px;
+  margin-top: 0px;
+  border: 3px solid red;
+  margin: 0px;
+  margin-bottom: 10px;
+  display: block;
+  float: left;
+  width: 14.8175%;
+  font-family: 'Pacifico', serif;
+  font-size: 18px;
   color: red;
+}
+#main-nav ul li a:hover,
+#main-nav ul li a:focus,
+#main-nav ul li a:active {
+  background-color: red;
+  font-family: 'Pacifico', serif;
+  font-size: 18px;
+  color: #ffd966;
+}
+#artist-list li {
+  text-decoration: none;
+  background-color: #ffd966;
+  padding: 0px;
+  margin-top: 0px;
+  border: 3px solid red;
+  margin: 0px;
+  display: block;
+  font-family: 'Pacifico', serif;
+  font-size: 24px;
+  color: red;
+  padding-left: 15px;
 }
