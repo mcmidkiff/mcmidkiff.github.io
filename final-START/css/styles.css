@@ -1,0 +1,87 @@
+* {
+	box-sizing: border-box;
+}
+html {
+    font-size: 16px;
+    line-height: 1.4rem;
+		background-image: url(../img/bg.jpg);
+		background-repeat: repeat;
+}
+
+
+footer {
+    margin: 4rem 0rem;
+    padding: 2rem 0rem;
+    border-top: 1px solid #ccc;
+    font-size: .8rem;
+}
+header {
+	padding: 20px 0px 10px;
+	min-height: 150px;
+}
+header h1 {
+	clear: both;
+	padding-left: 25px;
+	margin-bottom: 0px;
+	font-family: 'Slabo 13px', serif;
+	font-size: 48px;
+	color: gray;
+	width: 500px;
+	text-align: center;
+	line-height: 5px;
+	margin-right: auto;
+}
+header blockquote {
+	color: darkgray;
+	font-size: 36px;
+}
+#main-nav {
+	float: right;
+	font-family: 'Roboto', serif;
+}
+#main-nav ul li {
+	display: inline-block;
+	width: 150px;
+	padding: 10px;
+}
+#main-nav ul li a:hover,
+#main-nav ul li a:focus,
+#main-nav ul li a:active {
+	color: #grey;
+	border-bottom: 2px solid #red;
+}
+#kids-img {
+	clear: both;
+	padding-left: 100px;
+	width: 100px;
+}
+h2 {
+	font-family: 'Slabo 13px', serif;
+	font-size: 36px;
+	padding-bottom: 15px;
+	border-bottom: 2px solid red;
+	width: 33%;
+	text-align: center;
+	align-content: center;
+}
+p {
+	font-family: 'Roboto', serif;
+	font-size: 14px;
+}
+main h2 {
+	text-align: center;
+}
+main p {
+	text-align: center;
+}
+main p blockquote {
+	text-align: center;
+}
+.thumbs {
+	clear: both;
+	text-align: center;
+}
+.thumbs img {
+	max-width: 300px;
+	padding: 30px;
+}
