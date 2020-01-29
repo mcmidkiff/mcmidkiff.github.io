@@ -1,0 +1,125 @@
+body {
+  background-color: rgb(255, 250, 161);
+  margin: 0;
+}
+h1 {
+  color: hsl(36, 100%, 21%);
+  text-align: center;
+}
+
+nav {
+  width: 100vw;
+}
+nav ul {
+  list-style-type: none;
+  margin: 20;
+  padding: 0;
+}
+nav li {
+  float: right;
+  width: 33%;
+}
+nav li a {
+  display: block;
+  color: hsl(36, 100%, 21%);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  border: 3px solid hsl(36, 100%, 21%);
+  font-size: calc(6px + 1vw);
+}
+nav li a:hover {
+  display: block;
+  background-color: hsl(36, 100%, 21%);
+  color: rgb(255, 250, 161);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  border: 3px solid rgb(255, 250, 161);
+}
+nav li a:active {
+  display: block;
+  box-shadow: 2px 2px 5px hsl(36, 100%, 21%);
+  background-color: hsl(36, 100%, 21%);
+  color: rgb(255, 250, 161);
+  text-align: center;
+  padding: 12px 14px;
+  text-decoration: none;
+  border: 3px solid rgb(255, 250, 161);
+}
+.subhead {
+  margin-top: 6em;
+  margin-bottom: 2em;
+  margin-left: 3em;
+  margin-right: 3em;
+  color: hsl(36, 100%, 21%);
+  text-align: center;
+}
+#breakfast {
+  background-color: hsl(36, 100%, 21%);
+  color: rgb(255, 250, 161);
+  width: 60%;
+  margin: auto;
+  padding: 10px;
+}
+#breakfast h2 {
+  text-align: center;
+  font-size: calc(24px + 1vw);
+}
+#breakfast img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 34.33vw;
+  height: 20vw;
+}
+#breakfast ul li {
+  font-size: 20px;
+}
+#lunch {
+  background-color: hsl(36, 100%, 21%);
+  color: rgb(255, 250, 161);
+  width: 60%;
+  margin: auto;
+  margin-top: 2em;
+  padding: 10px;
+}
+#lunch h2 {
+  text-align: center;
+  font-size: calc(24px + 1vw);
+}
+#lunch img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 34.33vw;
+  height: 20vw;
+}
+#lunch ul li {
+  font-size: 20px;
+}
+#dinner {
+  background-color: hsl(36, 100%, 21%);
+  color: rgb(255, 250, 161);
+  width: 60%;
+  margin: auto;
+  margin-top: 2em;
+  padding: 10px;
+}
+#dinner h2 {
+  text-align: center;
+  font-size: calc(24px + 1vw);
+}
+#dinner img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 34.33vw;
+  height: 20vw;
+}
+#dinner ul li {
+  font-size: 20px;
+}
+footer {
+  color: hsl(36, 100%, 21%);
+}
