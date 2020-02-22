@@ -1,0 +1,124 @@
+body {
+  margin: 0;
+
+}
+header {
+  background-color: lightblue;
+  text-align: center;
+  height: 75px;
+
+}
+header h1 {
+  margin: 0;
+  padding: 0.25em 0;
+  color: white;
+  font-family: 'Sriracha', cursive;
+}
+
+.sidebar {
+  padding: 5px 0;
+  width: 15%;
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  background-color: lightblue;
+  overflow-x: hidden;
+  margin-top: 10px;
+}
+.sidebar a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+  display: block;
+  text-align: center;
+  border: 2px white solid;
+  border-collapse: collapse;
+}
+.sidebar a:hover {
+  border: 2px lightblue solid;
+  background-color: white;
+  color: lightblue;
+}
+
+#homearticle {
+  width: 50%;
+  margin: auto;
+  color: white;
+  font-weight: bold;
+  margin-top: 50px;
+}
+.footer {
+  background-color: lightblue;
+  height: 75px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+}
+.footer h2 {
+  margin: 0 15px;
+  padding: .25em 0;
+  color: white;
+  font-family: 'Sriracha', cursive;
+  float: left;
+}
+.footer img {
+  margin: .25em;
+  padding: .25em 0;
+}
+#historyvid {
+  width: 35%;
+  margin: auto;
+  margin-top: 50px;
+}
+#historyvid iframe {
+  width: 560px;
+  height: 300px;
+}
+#geographyarticle {
+  width: 50%;
+  margin: auto;
+  color: lightblue;
+  font-weight: bold;
+  margin-top: 50px;
+}
+#geographyarticle2 {
+  width: 75%;
+  margin: auto;
+  color: lightblue;
+  font-weight: bold;
+  margin-top: 25px;
+}
+#geoimg {
+  width: 35%;
+  margin: auto;
+  margin-top: 20px;
+}
+@keyframes pop-in {
+  0% {
+    opacity: 0;
+    transform: translateY(-4rem) scale(0.8);
+  }
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+.pop-in {
+  animation: pop-in .6s cubic-bezier(0, 0.9, 0.3, 1.2) forwards;
+  opacity: 0;
+}
+.title {
+  animation-delay: 0.5s;
+}
+.historyanimate {
+  animation-delay: 0.8s;
+}
+.cultureanimate {
+  animation-delay: 0.9s;
+}
+.geoanimate {
+  animation-delay: 1s;
+}
