@@ -1,0 +1,176 @@
+body {
+  margin: 0;
+
+}
+header {
+  background-color: lightblue;
+  text-align: center;
+  height: 75px;
+
+}
+header h1 {
+  margin: 0;
+  padding: 0.25em 0;
+  color: white;
+  font-family: 'Sriracha', cursive;
+}
+.sidebar {
+  overflow: hidden;
+  background-color: lightblue;
+  font-family: 'Sriracha';
+  border: 1px solid white;
+}
+.sidebar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+.sidebar a:hover, .dropdown:hover .dropbtn {
+  background-color: white;
+  display: block;
+  color: lightblue;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+
+}
+.dropdown-content a {
+  float: none;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  color: lightblue;
+  border: 2px solid lightblue;
+}
+.dropdown-content a:hover {
+  background-color: lightblue;
+  color: white;
+}
+.dropdown:hover .dropdown-content {
+  display: inline;
+}
+
+#homearticle {
+  width: 50%;
+  margin: auto;
+  color: white;
+  font-weight: bold;
+  margin-top: 50px;
+}
+.footer {
+  background-color: lightblue;
+  height: 75px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+}
+.footer h2 {
+  margin: 0 15px;
+  padding: .25em 0;
+  color: white;
+  font-family: 'Sriracha', cursive;
+  float: left;
+}
+.footer img {
+  margin: .25em;
+  padding: .25em 0;
+}
+#historyvid {
+  width: 35%;
+  margin: auto;
+  margin-top: 50px;
+}
+#historyvid iframe {
+  width: 560px;
+  height: 300px;
+}
+#geographyarticle {
+  width: 50%;
+  margin: auto;
+  color: lightblue;
+  font-weight: bold;
+  margin-top: 50px;
+}
+#geographyarticle2 {
+  width: 75%;
+  margin: auto;
+  color: lightblue;
+  font-weight: bold;
+  margin-top: 25px;
+}
+#geoimg {
+  width: 35%;
+  margin: auto;
+  margin-top: 20px;
+}
+@keyframes pop-in {
+  0% {
+    opacity: 0;
+    transform: translateY(-4rem) scale(0.8);
+  }
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+.pop-in {
+  animation: pop-in .6s cubic-bezier(0, 0.9, 0.3, 1.2) forwards;
+  opacity: 0;
+}
+.title {
+  animation-delay: 0.5s;
+}
+.historyanimate {
+  animation-delay: 0.2s;
+}
+.cultureanimate {
+  animation-delay: 0.4s;
+}
+.geoanimate {
+  animation-delay: 0.6s;
+}
+table {
+  margin: 0 auto;
+  border-collapse: collapse;
+  margin-bottom: 40px;
+}
+th {
+  border: 1px solid black;
+  padding: 0.5em;
+  background-color: lightblue;
+}
+td {
+  border: 1px solid black;
+  padding: 0.5em;
+}
+tbody tr:nth-child(odd) {
+	background: rgb(242, 236, 155);
+}
+h2 {
+  text-align: center;
+}
