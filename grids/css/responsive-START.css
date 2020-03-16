@@ -42,11 +42,11 @@ img {
   grid-area: cta2;
 }
 .hero > * {
-  background: var(--yellow);
+  background: yellow;
   padding: 5px;
 }
 .cta {
-  background: var(--yellow);
+  background: yellow;
   display: grid;
   align-items: center;
   justify-items: center;
@@ -68,7 +68,7 @@ img {
   grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
 }
 .menu a {
-  background: var(--yellow);
+  background: yellow;
   display: block;
   text-decoration: none;
   padding: 10px;
@@ -124,11 +124,11 @@ img {
   display: block;
   content: '';
   height: 10px;
-  background: linear-gradient(to left, var(--yellow), transparent);
+  background: linear-gradient(to left, yellow, transparent);
 
 }
 .gallery h2:after {
-  background: linear-gradient(to right, var(--yellow), transparent);
+  background: linear-gradient(to right, yellow, transparent);
 }
 .gallery img {
   width: 100%;
