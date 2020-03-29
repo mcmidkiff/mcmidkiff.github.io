@@ -1,0 +1,26 @@
+body  {
+   font-family: arial, helvetica, sans-serif;
+   color: blue;
+   }
+section {
+   margin: 10px auto;
+   width: 75%;
+   text-align: center;
+   border: 1px solid blue;
+ }
+h1  {
+font-size:  300%;
+
+}
+h2  {
+font-size:   150%;
+}
+section {
+	background-color: white;
+}
+section #image_list li {
+	display: inline;
+}
+section #image_list a {
+	border:none;
+}
