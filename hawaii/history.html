@@ -1,0 +1,101 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Hawaii</title>
+  <link rel="stylesheet" href="css/main.css">
+  <link href="https://fonts.googleapis.com/css?family=Sriracha&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css"
+        integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous">
+  <link rel="icon" href="img/favicon.jpg" type="image/x-icon">
+  <link rel="stylesheet" href="css/jquery-ui-1.10.3.custom.min.css">
+  <style>
+    #backgroundimg {
+        background-image: url("img/hawaii.jpg");
+        height: 500px;
+        background-position: center;
+    }
+  </style>
+</head>
+
+<body id="backgroundimg">
+  <header>
+    <a href="home.html" style="text-decoration:none;"><h1 class="pop-in title">Hawaii</h1></a>
+  </header>
+
+  <nav class="sidebar">
+    <div class="dropdown">
+      <button class="dropbtn">Menu
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+      <a href="history.html" class="pop-in historyanimate">History</a>
+      <a href="culture.html" class="pop-in cultureanimate">Culture</a>
+      <a href="geography.html" class="pop-in geoanimate">Geography</a>
+      </div>
+    </div>
+  </nav>
+
+  <div id="ui-examples">
+    <div class="example accordion">
+      <div id="group-of-three">
+        <h1>Ancient Hawaii</h1>
+        <div>
+          <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+          <p>
+          <a href="#step2" id="acc-skip2">Next »</a>
+          </p>
+        </div>
+        <h1>1800s</h1>
+        <div>
+          <a name="step2"></a>
+          <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+          <p>
+          <a href="#step3" id="acc-skip3">Next »</a>
+          </p>
+        </div>
+        <h1>1900s</h1>
+        <div>
+          <a name="step3"></a>
+          <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script src="js/jquery-ui-1.10.3.custom.js"></script>
+
+  <script>
+  $(document).ready(function(){
+    var $group = $('#group-of-three');
+
+    // default open is 0 { active: 1 }
+    $group.accordion();
+
+    $('#acc-skip2').click(function() {
+
+      $group.accordion('option', 'active', 1);
+    });
+
+    $('#acc-skip3').click(function() {
+
+      $group.accordion('option', 'active', 2);
+    });
+
+  });
+  </script>
+
+  <footer>
+
+  </footer>
+</body>
+</html>
